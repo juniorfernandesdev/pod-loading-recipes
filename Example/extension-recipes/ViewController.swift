@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import extension_recipes
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        let loading = showLoading()
+        DispatchQueue.main.asyncAfter(deadline: .now()+2) {
+            self.hideLoading(v: loading)
+        }
     }
 
     override func didReceiveMemoryWarning() {

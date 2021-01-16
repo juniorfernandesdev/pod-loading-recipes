@@ -1,0 +1,6 @@
+framework module extension_recipes {
+  umbrella header "extension-recipes-umbrella.h"
+
+  export *
+  module * { export * }
+}

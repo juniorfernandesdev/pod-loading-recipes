@@ -1,0 +1,22 @@
+{
+  "name": "extension-recipes",
+  "version": "0.1.0",
+  "summary": "A short description of extension-recipes.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/juniorbass8@gmail.com/extension-recipes",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "juniorbass8@gmail.com": "juniorbass8@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/juniorbass8@gmail.com/extension-recipes.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "extension-recipes/Classes/**/*"
+}

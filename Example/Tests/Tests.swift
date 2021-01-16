@@ -1,5 +1,5 @@
 import XCTest
-import extension-recipes
+import extension_recipes
 
 class Tests: XCTestCase {
     
